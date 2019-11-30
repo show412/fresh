@@ -31,11 +31,11 @@ You can use the `-c` options if you want to specify a config file:
 You can use the '-a' options if you want to have command line arguments to pass to the process
 
 For example, you can add the alias name "live-reload" in your Makefile like this:
-"
+```
 live-reload:
     go get github.com/vindurriel/fresh
     fresh -a 's -A true -e development -c ./config/development/config.yml'
-"
+```
 
 Here is a sample config file with the default settings:
 
